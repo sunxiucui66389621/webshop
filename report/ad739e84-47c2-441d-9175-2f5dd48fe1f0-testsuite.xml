@@ -1,0 +1,158 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527410637737" stop="1527410637802">
+  <name>test_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527410637737" status="failed" stop="1527410637785">
+      <name>Test_001.test_a[1]</name>
+      <failure>
+        <message>AssertionError: assert 1 == 2</message>
+        <stack-trace>self = &lt;test_allure.Test_001 object at 0x0367D950&gt;, a = 1
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.step(title="测试步骤01")
+    @pytest.mark.parametrize("a",[1,2,3])
+    def test_a(self,a):
+&gt;       assert  a == 2
+E       assert 1 == 2
+
+test_allure.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637740" status="failed" stop="1527410637740">
+          <name>测试步骤01</name>
+          <title>测试步骤01</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527410637786" status="passed" stop="1527410637788">
+      <name>Test_001.test_a[2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637788" status="passed" stop="1527410637788">
+          <name>测试步骤01</name>
+          <title>测试步骤01</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527410637789" status="failed" stop="1527410637793">
+      <name>Test_001.test_a[3]</name>
+      <failure>
+        <message>AssertionError: assert 3 == 2</message>
+        <stack-trace>self = &lt;test_allure.Test_001 object at 0x0367DAD0&gt;, a = 3
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.step(title="测试步骤01")
+    @pytest.mark.parametrize("a",[1,2,3])
+    def test_a(self,a):
+&gt;       assert  a == 2
+E       assert 3 == 2
+
+test_allure.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637790" status="failed" stop="1527410637790">
+          <name>测试步骤01</name>
+          <title>测试步骤01</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527410637794" status="passed" stop="1527410637795">
+      <name>Test_001.test_b[4]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637795" status="passed" stop="1527410637795">
+          <name>测试步骤02</name>
+          <title>测试步骤02</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527410637796" status="failed" stop="1527410637800">
+      <name>Test_001.test_b[5]</name>
+      <failure>
+        <message>AssertionError: assert 5 != 5</message>
+        <stack-trace>self = &lt;test_allure.Test_001 object at 0x0368FB90&gt;, b = 5
+
+    @allure.step(title="测试步骤02")
+    @pytest.mark.parametrize("b",[4,5,6])
+    def test_b(self,b):
+&gt;       assert b !=5
+E       assert 5 != 5
+
+test_allure.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637797" status="failed" stop="1527410637797">
+          <name>测试步骤02</name>
+          <title>测试步骤02</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527410637801" status="passed" stop="1527410637802">
+      <name>Test_001.test_b[6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14932-MainThread"/>
+        <label name="host" value="DESKTOP-MKI0M99"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527410637802" status="passed" stop="1527410637802">
+          <name>测试步骤02</name>
+          <title>测试步骤02</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,8 @@
+[
+  "test_allure.py::Test_001::()::test_a[1]",
+  "test_allure.py::Test_001::()::test_a[2]",
+  "test_allure.py::Test_001::()::test_a[3]",
+  "test_allure.py::Test_001::()::test_b[4]",
+  "test_allure.py::Test_001::()::test_b[5]",
+  "test_allure.py::Test_001::()::test_b[6]"
+]
